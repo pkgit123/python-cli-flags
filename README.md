@@ -5,7 +5,7 @@ Use argparse library to enable CLI flags.  Benefit to CLI flags includes code re
 
 ***Example CLI:***
 ```Python
-python python-scraper.py -t daily_update
+python3 python-scraper.py -t daily_update
 ```
 
 ***Reference:***
