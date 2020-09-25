@@ -20,11 +20,15 @@ def run_sample_function(input_time_period='six_week_rolling_window'):
         - Example: 'six_week_rolling_window', also default parameter
   '''
   # branching logic based in input parameter
-  if input_time_period='six_week_rolling_window':
+  if input_time_period=='six_week_rolling_window':
     print("Run the application using the six week rolling window.")
-  elif input_time_period='daily_update':
+  elif input_time_period=='daily_update':
     print("Run the application using the daily update window.")
+  else:
+    print("Another argument for -t was inputted.")
     
+  print("Here is the argument for -t inputted: ", input_time_period)
+  
   # ========== SAMPLE CODE ==========
   # put sample application code that incorporate the parameters.
   # =================================
